@@ -1,7 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v2.json",
   "description": "Bar chart indicating the losses depending on the type of damage",
-  "width": 1000,
+  "width": 500,
+  "height":400,
   "data": { "url": "https://raw.githubusercontent.com/rachana754/VA_HW3/master/losses2015_transformed.csv"},
   "mark": "bar",
   "encoding": {

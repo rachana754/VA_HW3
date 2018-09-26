@@ -6,13 +6,19 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@3"></script>
 </head>
 <body>
+<!-- Container for the visualization -->
+<div id="vis1"></div>
+<div  id="vis2"></div>
 
-<div id="visualisation"></div>
 
 <script type="text/javascript">
-  var spec = "https://raw.githubusercontent.com/akshaybankar47/VA/master/Bar_Chart.vg.json";
-  vegaEmbed('#visualisation', spec).then(function(result) {
+  var spec2 = "https://raw.githubusercontent.com/rachana754/VA_HW3/master/ChoroplethMap.json";
+  var spec1 = "https://raw.githubusercontent.com/rachana754/VA_HW3/master/BarChartVis.json";
+  vegaEmbed('#vis1', spec1).then(function(result) {
+  }).catch(console.error);
+  vegaEmbed('#vis2', spec2).then(function(result) {
   }).catch(console.error);
 </script>
+
 </body>
 </html>
