@@ -38,7 +38,7 @@
     {
       "name": "color",
       "type": "quantize",
-      "domain": [0, 500000],
+      "domain": [0, 50000000],
       "range": {"scheme": "blues", "count": 50}
     }
   ],
